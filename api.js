@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 
 export const URL_API =
-  process.env.NODE_ENV !== "production"
+  process.env.NODE_ENV === "production"
     ? "https://api.datoscovid.org"
     : "http://localhost:3001";
 
