@@ -7,9 +7,9 @@ console.log('run checkout github')
 execSync('git pull origin main')
 console.log('finish checkout github')
 
-console.log('run build')
-execSync('npm run build')
-console.log('finih build')
+// console.log('run build')
+// execSync('npm run build')
+// console.log('finih build')
 
 console.log('upload build')
 execSync('vercel --prod')
